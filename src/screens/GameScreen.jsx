@@ -8,7 +8,6 @@ import {
   Dimensions,
   Alert,
 } from 'react-native';
-import { useGame } from '../context/GameContext';
 import Board from '../components/Board';
 import { playAIMove } from '../utils/aiLogic';
 

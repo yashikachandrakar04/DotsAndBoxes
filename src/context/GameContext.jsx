@@ -1,5 +1,5 @@
 import React, { createContext, useState, useContext } from 'react';
-import AsyncStorage from '@react-native-community/async-storage';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const GameContext = createContext();
 
